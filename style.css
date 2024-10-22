@@ -1,0 +1,138 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-section .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .hero-section .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 60px;
+    background-color: #fdfdfd;
+  }
+  
+  .about-section h2, .about-section h3 {
+    color: #6c63ff;
+  }
+  
+  .about-section ul {
+    list-style: none;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    padding: 60px;
+    background-color: #6c63ff;
+    color: white;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skill-item {
+    width: 30%;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    padding: 60px;
+    background-color: #f4f4f9;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 60px;
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
